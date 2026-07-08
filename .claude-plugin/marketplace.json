@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "minimax-media",
+  "version": "0.2.0",
+  "description": "MiniMax media plugin — wraps the official MiniMax-AI/MiniMax-MCP server into a unified Codex/Claude Code/Antigravity plugin.",
+  "owner": {
+    "name": "zeroko"
+  },
+  "plugins": [
+    {
+      "name": "minimax",
+      "version": "0.2.0",
+      "description": "Image, video, TTS, voice clone/design, music generation via MiniMax.",
+      "author": {
+        "name": "zeroko"
+      },
+      "source": "./",
+      "category": "creative"
+    }
+  ]
+}

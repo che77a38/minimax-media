@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "minimax": {
+      "command": "uvx",
+      "args": ["minimax-mcp"],
+      "env": {
+        "MINIMAX_API_KEY": "MINIMAX_API_KEY",
+        "MINIMAX_API_HOST": "MINIMAX_API_HOST",
+        "MINIMAX_MCP_BASE_PATH": "MINIMAX_MCP_BASE_PATH"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "minimax",
+  "version": "0.2.0",
+  "description": "Official MiniMax MCP plugin — text/image-to-image, text/image-to-video, TTS, voice clone/design, music generation, and local audio playback via the MiniMax-AI/MiniMax-MCP server (MIT, stdio, uvx). Works alongside Claude Code and Antigravity.",
+  "author": {
+    "name": "zeroko"
+  },
+  "homepage": "https://github.com/MiniMax-AI/MiniMax-MCP",
+  "repository": "https://github.com/MiniMax-AI/MiniMax-MCP",
+  "license": "MIT",
+  "keywords": [
+    "minimax",
+    "hailuo",
+    "image-generation",
+    "video-generation",
+    "text-to-speech",
+    "voice-clone",
+    "music-generation",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MiniMax Media",
+    "shortDescription": "Image, video, TTS via MiniMax",
+    "longDescription": "Wraps the official MiniMax-AI/MiniMax-MCP server (MIT, uvx-launched stdio) into a plugin that exposes nine tools: text_to_image, generate_video, query_video_generation, text_to_audio, list_voices, voice_clone, voice_design, music_generation, play_audio.",
+    "developerName": "zeroko",
+    "category": "Creative",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://www.minimax.io/platform",
+    "defaultPrompt": ["Generate a hero image for my product landing page"],
+    "brandColor": "#FF4040",
+    "composerIcon": "./assets/minimax-icon.svg",
+    "logo": "./assets/minimax-icon.png",
+    "screenshots": []
+  }
+}

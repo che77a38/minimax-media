@@ -1,0 +1,19 @@
+{
+  "name": "minimax",
+  "version": "0.2.0",
+  "description": "MiniMax media plugin — text/image-to-image, text/image-to-video, TTS, voice clone/design, music generation, local audio playback via MiniMax-AI/MiniMax-MCP. Compatible with Claude Code (.claude-plugin) and Antigravity (.agents).",
+  "author": {
+    "name": "zeroko"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/MiniMax-AI/MiniMax-MCP",
+  "keywords": [
+    "minimax",
+    "hailuo",
+    "mcp",
+    "image-generation",
+    "video-generation",
+    "text-to-speech",
+    "music-generation"
+  ]
+}
