@@ -1,7 +1,7 @@
 {
   "name": "minimax",
   "version": "0.2.0",
-  "description": "Official MiniMax MCP plugin — text/image-to-image, text/image-to-video, TTS, voice clone/design, music generation, and local audio playback via the MiniMax-AI/MiniMax-MCP server (MIT, stdio, uvx). Works alongside Claude Code and Antigravity.",
+  "description": "MiniMax 媒体 MCP 插件 —— 同一份配置同时支持 Codex / Claude Code / Antigravity。包装官方的 MiniMax-AI/MiniMax-MCP 服务器（MIT、stdio、uvx 启动），提供 9 个工具：text_to_image、generate_video、query_video_generation、text_to_audio、list_voices、voice_clone、voice_design、music_generation、play_audio。",
   "author": {
     "name": "zeroko"
   },
@@ -22,13 +22,18 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "MiniMax Media",
-    "shortDescription": "Image, video, TTS via MiniMax",
-    "longDescription": "Wraps the official MiniMax-AI/MiniMax-MCP server (MIT, uvx-launched stdio) into a plugin that exposes nine tools: text_to_image, generate_video, query_video_generation, text_to_audio, list_voices, voice_clone, voice_design, music_generation, play_audio.",
+    "shortDescription": "用 MiniMax 出图、出视频、配音",
+    "longDescription": "包装官方 MiniMax-AI/MiniMax-MCP 服务器（MIT、uvx 启动的 stdio 进程），对外暴露 9 个工具：text_to_image（生图）、generate_video（生视频）、query_video_generation（轮询异步视频）、text_to_audio（TTS）、list_voices、voice_clone、voice_design、music_generation、play_audio。一次配置，三家 AI 客户端通用。",
     "developerName": "zeroko",
     "category": "Creative",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://www.minimax.io/platform",
-    "defaultPrompt": ["Generate a hero image for my product landing page"],
+    "defaultPrompt": [
+      "为我的产品落地页生成一张主视觉图片"
+    ],
     "brandColor": "#FF4040",
     "composerIcon": "./assets/minimax-icon.svg",
     "logo": "./assets/minimax-icon.png",

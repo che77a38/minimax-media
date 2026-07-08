@@ -1,7 +1,7 @@
 {
   "name": "minimax",
   "version": "0.2.0",
-  "description": "MiniMax media plugin — text/image-to-image, text/image-to-video, TTS, voice clone/design, music generation, local audio playback via MiniMax-AI/MiniMax-MCP. Compatible with Claude Code (.claude-plugin) and Antigravity (.agents).",
+  "description": "MiniMax 媒体插件 —— 通过 MiniMax-AI/MiniMax-MCP 提供文/图生图、文/图生视频、TTS、声音克隆/设计、音乐生成、本地播放。同一份 metadata 在 Claude Code 和 Antigravity 都能识别。",
   "author": {
     "name": "zeroko"
   },

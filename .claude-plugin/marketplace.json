@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "minimax-media",
   "version": "0.2.0",
-  "description": "MiniMax media plugin — wraps the official MiniMax-AI/MiniMax-MCP server into a unified Codex/Claude Code/Antigravity plugin.",
+  "description": "MiniMax 媒体插件市场 —— 把官方 MiniMax-AI/MiniMax-MCP 包装成统一可在 Codex / Claude Code / Antigravity 加载的插件。",
   "owner": {
     "name": "zeroko"
   },
@@ -10,7 +10,7 @@
     {
       "name": "minimax",
       "version": "0.2.0",
-      "description": "Image, video, TTS, voice clone/design, music generation via MiniMax.",
+      "description": "生图、生视频、TTS、声音克隆 / 设计、音乐生成。MiniMax 官方 MCP 服务器的轻量包装。",
       "author": {
         "name": "zeroko"
       },
